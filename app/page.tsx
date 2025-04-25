@@ -93,7 +93,7 @@ export default function Home() {
                   src="/images/robot.png"
                   height={100}
                   width={100}
-                  className="h-[65vh] -mt-[80px] w-auto"
+                  className="h-[70vh] -mt-[80px] w-auto"
                   alt="robot"
                 />
               </div>
