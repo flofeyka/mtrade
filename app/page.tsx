@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen h-full bg-cover bg-center relative">
+    <div className="min-h-screen h-full w-full bg-cover bg-center relative">
       <video
         autoPlay
         loop
@@ -42,9 +42,9 @@ export default function Home() {
           </button>
         </nav>
 
-        <main className="relative flex flex-col justify-stretch z-10 container mx-auto px-6 ">
-          <div className="flex flex-col items-stretch lg:flex-row mt-10 justify-between">
-            <div className="lg:w-[60%] flex flex-col justify-between  text-4xl">
+        <main className="relative flex flex-col w-full z-10 container px-6 ">
+          <div className="flex flex-col items-stretch w-[95vw] lg:flex-row justify-between mt-10">
+            <div className="lg:w-[60%] flex flex-col justify-between text-4xl">
               <div className=" font-[Minecraft]  flex flex-col items-start">
                 <h2 className="text-[#00FFC9] mb-2">Лiцензирований</h2>
                 <h1 className="text-white leading-14">
@@ -53,8 +53,8 @@ export default function Home() {
                 </h1>
               </div>
 
-              <div className="flex flex-col font-[Century_Gothic] text-white max-sm:flex-row w-[45%] max-w-[320px] gap-10 mt-8">
-                <Button className="relative flex justify-between group overflow-hidden px-6 py-3 text-white ">
+              <div className="flex flex-col font-[Century_Gothic] text-white max-sm:flex-row w-[45%]  max-w-[320px] gap-10 mt-8">
+                <Button className="relative hover:text-black flex justify-between group overflow-hidden px-6 py-3 text-white ">
                   {/* Текст внутри кнопки */}
                   <span className="relative z-10 flex justify-between w-full">
                     <span>Придбати підписку</span>{" "}
@@ -69,7 +69,7 @@ export default function Home() {
                   ></span>{" "}
                   {/* Начало заливки из плюса */}
                 </Button>
-                <Button className="relative flex justify-between group overflow-hidden px-6 py-3 text-white ">
+                <Button className="relative hover:text-black flex justify-between group overflow-hidden px-6 py-3 text-white ">
                   {/* Текст внутри кнопки */}
                   <span className="relative z-10 flex justify-between w-full">
                     <span>Спробувати демо</span>
@@ -87,8 +87,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex w-[40%] font-[Century_Gothic] flex-col items-center">
-              <div className="">
+            <div className="flex font-[Century_Gothic] flex-col items-center">
+              <div>
                 <Image
                   src="/images/robot.png"
                   height={100}
@@ -98,7 +98,7 @@ export default function Home() {
                 />
               </div>
               <div className="flex text-2xl items-center ">
-                <Button className="relative flex justify-between group overflow-hidden px-6 py-3 text-white max-w-[300px]">
+                <Button className="relative flex hover:text-black justify-between group overflow-hidden px-6 py-3 text-white w-[300px]">
                   {/* Текст внутри кнопки */}
                   <span className="relative z-10 flex justify-between w-full">
                     <span>Надіслати заявку</span>

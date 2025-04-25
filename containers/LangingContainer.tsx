@@ -4,7 +4,7 @@ export default function LandingContainer({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col justify-self-center ">
+    <div className="flex flex-col justify-self-center w-full">
       {children}
     </div>
   );
