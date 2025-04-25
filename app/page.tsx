@@ -44,8 +44,8 @@ export default function Home() {
 
         <main className="relative flex flex-col w-full z-10 container px-6 ">
           <div className="flex flex-col items-stretch w-[95vw] lg:flex-row justify-between mt-10">
-            <div className="lg:w-[60%] flex flex-col justify-between text-4xl">
-              <div className=" font-[Minecraft]  flex flex-col items-start">
+            <div className="lg:w-[50%] flex flex-col justify-between text-4xl">
+              <div className=" font-[Minecraft] mt-15 flex flex-col items-start">
                 <h2 className="text-[#00FFC9] mb-2">Лiцензирований</h2>
                 <h1 className="text-white leading-14">
                   торговий робот для автоматическоЇ торгiвлi на ринку
@@ -91,8 +91,8 @@ export default function Home() {
               <div>
                 <Image
                   src="/images/robot.png"
-                  height={100}
-                  width={100}
+                  height={10000}
+                  width={10000}
                   className="h-[70vh] -mt-[80px] w-auto"
                   alt="robot"
                 />
