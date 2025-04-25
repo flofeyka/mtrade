@@ -19,33 +19,21 @@ export default function Home() {
 
       {/* Navigation */}
       <LandingContainer>
-        <nav className="relative z-10 p-6 flex justify-between items-start">
+        <nav className="relative z-10 p-6 flex justify-between items-center">
           <div
             className="text-[#00FFD1] text-5xl font-bold tracking-wider"
             style={{ fontFamily: "Monument Extended, sans-serif" }}
           >
             <Image
               src="/logos/MTRADE.svg"
-              height={50}
-              width={50}
+              height={75}
+              width={75}
               alt="mtrade"
               className="h-[115px] w-auto"
             />
           </div>
-          <button className="text-[#00FFD1] p-2 rounded-full border-2 border-[#00FFD1] hover:bg-[#00FFD1]/10 transition-all">
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
+          <button className="cursor-pointer">
+            <Image src="/icons/3-lines.svg" height={60} width={60} alt="3-lines" />
           </button>
         </nav>
 
@@ -53,14 +41,14 @@ export default function Home() {
           <div className="flex flex-col items-stretch lg:flex-row mt-10 justify-between">
             <div className="lg:w-1/2 flex flex-col justify-between  text-4xl">
               <div className=" font-[Minecraft]  flex flex-col items-start">
-                <h2 className="text-[#00FFC9] mb-1">лiцензирований</h2>
-                <h1 className="text-white leading-12">
+                <h2 className="text-[#00FFC9] mb-2">лiцензирований</h2>
+                <h1 className="text-white leading-14">
                   торговий робот для автоматическоЇ торгiвлi на ринку
                   <span className="text-[#00FFD1]"> xau/usd</span>
                 </h1>
               </div>
 
-              <div className="flex flex-col font-[Century_Gothic] text-white max-sm:flex-row w-[45%] gap-4 mt-8">
+              <div className="flex flex-col font-[Century_Gothic] text-white max-sm:flex-row w-[45%] max-w-[300px] gap-10 mt-8">
                 <Button className="flex justify-between">
                   <span>Придбати підписку</span>
                   <span>+</span>
@@ -78,12 +66,12 @@ export default function Home() {
                   src="/images/robot.png"
                   height={100}
                   width={100}
-                  className="h-[70vh] -mt-[100px] w-auto"
+                  className="h-[65vh] -mt-[80px] w-auto"
                   alt="robot"
                 />
               </div>
-              <div className="w-full flex text-2xl items-center ">
-                <Button className="w-full flex justify-between">
+              <div className="flex text-2xl items-center ">
+                <Button className="w-full flex justify-between max-w-[300px]">
                   <span>Надіслати заявку</span>
                   <span>+</span>
                 </Button>
