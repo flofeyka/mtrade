@@ -62,7 +62,7 @@ export default function Home() {
                   </span>
                   {/* Заливка из плюса */}
                   <span
-                    className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-500 ease-out z-0 
+                    className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-600 ease-out z-0 
                    group-hover:w-[250%] group-hover:h-[150%] 
                    transform -translate-y-1/2 translate-x-9"
                     style={{ top: "50%", right: "1.25rem" }}
@@ -77,7 +77,7 @@ export default function Home() {
                   </span>
                   {/* Заливка из плюса */}
                   <span
-                    className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-500 ease-out z-0 
+                    className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-600 ease-out z-0 
                    group-hover:w-[250%] group-hover:h-[150%] 
                    transform -translate-y-1/2 translate-x-9"
                     style={{ top: "50%", right: "1.25rem" }}
@@ -106,7 +106,7 @@ export default function Home() {
                   </span>
                   {/* Заливка из плюса */}
                   <span
-                    className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-500 ease-out z-0 
+                    className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-600 ease-out z-0 
                    group-hover:w-[250%] group-hover:h-[150%] 
                    transform -translate-y-1/2 translate-x-9"
                     style={{ top: "50%", right: "1.25rem" }}
