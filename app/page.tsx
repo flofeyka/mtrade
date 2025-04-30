@@ -161,7 +161,7 @@ export default function Home() {
                             <span className={'text-[#00FFC9]'}>автоматична</span> <span>торгiвля</span>
                         </header>
 
-                        <main className={'font-[Century_Gothic] leading-[25px] mb-5 mt-3'}>
+                        <main className={'font-[Century_Gothic] text-[23px] leading-[25px] mb-5 mt-3'}>
                             <div>Пара золото/долар <span className={'text-[#00FFC9] font-bold'}>(XAU/USD)</span> —
                                 одна <br/> з найволатильніших і найприбутковіших <br/> пар.
                             </div>
