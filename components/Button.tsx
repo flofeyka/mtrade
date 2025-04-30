@@ -5,9 +5,17 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
 export default function Button({ children, ...props }: ButtonProps) {
   return (
     <button
-      className={`p-4 shadow-[0_0_20px_15px_#02DBB233,inset_0_0_20px_20px_#02DBB233] cursor-pointer border-4 border-[#02DBB2] text-2xl transition-all ${props.className}`}
+      className={`p-4 relative hover:text-black group overflow-hidden shadow-[0_0_20px_15px_#02DBB233,inset_0_0_20px_20px_#02DBB233] cursor-pointer border-4 border-[#02DBB2] text-2xl transition-all ${props.className}`}
     >
+      <span className={'z-10'}>
       {children}
+      </span>
+      <span
+          className="absolute bg-[#02DBB2] rounded-full w-0 h-0 transition-all duration-600 ease-out z-0
+                   group-hover:w-[250%] group-hover:h-[150%]
+                   transform -translate-y-1/2 translate-x-10"
+          style={{top: "50%", right: "1.25rem"}}
+      ></span>
     </button>
   );
 }
