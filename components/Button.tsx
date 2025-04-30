@@ -1,13 +1,16 @@
+import { cn } from "@sglara/cn";
 import { ButtonHTMLAttributes } from "react";
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  btnClassName?: string;
+}
 
-export default function Button({ children, ...props }: ButtonProps) {
+export default function Button({ children, btnClassName, ...props }: ButtonProps) {
   return (
     <button
-      className={`p-4 relative hover:text-black group overflow-hidden shadow-[0_0_20px_15px_#02DBB233,inset_0_0_20px_20px_#02DBB233] cursor-pointer border-4 border-[#02DBB2] text-2xl transition-all ${props.className}`}
+      className={cn(`p-4 relative hover:text-black group overflow-hidden shadow-[0_0_20px_15px_#02DBB233,inset_0_0_20px_20px_#02DBB233] cursor-pointer border-4 border-[#02DBB2] text-2xl transition-all`, props.className)}
     >
-      <span className={'z-10'}>
+      <span className={cn(`z-10`, btnClassName)}>
       {children}
       </span>
       <span
