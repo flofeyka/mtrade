@@ -35,9 +35,9 @@ export default function Home() {
                     <div className="flex flex-col items-stretch w-[95vw] lg:flex-row justify-between mt-10">
                         <div className="lg:w-[50%] flex flex-col justify-between text-3xl" data-aos="fade-right" data-aos-duration="1000">
                             <div className=" font-[Minecraft] flex flex-col items-start">
-                                <h2 className="text-[#00FFC9] mb-2">Лiцензований</h2>
+                                <h2 className="text-[#00FFC9] mb-2">ЛIцензований</h2>
                                 <h1 className="text-white leading-14">
-                                    торговий робот для автоматичноЇ торгiвлi <br /> на ринку
+                                    торговий робот для автоматичноЇ торгIвлI <br /> на ринку
                                     <span className="text-[#00FFD1]"> xau/usd</span>
                                 </h1>
                             </div>
@@ -155,7 +155,7 @@ export default function Home() {
                     </ClipBlock>
                     <ClipBlock data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
                         <header className={'text-[23px] mb-5'}>
-                            <span className={'text-[#00FFC9]'}>автоматична</span> <span>торгiвля</span>
+                            <span className={'text-[#00FFC9]'}>автоматична</span> <span>торгIвля</span>
                         </header>
 
                         <main className={'font-[Century_Gothic] text-[23px] leading-[25px] mb-5 mt-3'}>
@@ -174,13 +174,13 @@ export default function Home() {
 
                 </div>
 
-                <div className={"flex justify-center items-center bg-[url('/images/sphere.png')] h-[350px] w-[287px] rounded-full flex justify-center items-center bg-center bg-cover -mt-[120px] -mb-[120px]"} data-aos="zoom-in" data-aos-duration="1200">
-                    <Image src={"/images/goldi.png"} height={350} width={287} alt={'sphere'} />
+                <div className={"flex justify-center items-center bg-[url('/images/sphere.png')] h-[400px] w-[287px] rounded-full flex justify-center items-center bg-center bg-cover -mt-[120px] -mb-[200px]"} data-aos="zoom-in" data-aos-duration="1200">
+                    <Image src={"/images/goldi.png"} height={300} width={200} alt={'sphere'} />
                 </div>
                 <div className={'flex justify-between w-full'}>
                     <ClipBlock className={'items-start text-start'} mirror rotate={180} data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150">
                         <header className={'text-[20px]'}>
-                            <span className={'text-[#00FFC9]'}>Надiйний</span> <span>прибуток <br /> та адаптация</span>
+                            <span className={'text-[#00FFC9]'}>НадIйний</span> <span>прибуток <br /> та адаптация</span>
                         </header>
 
                         <main className={'font-[Century_Gothic] text-[23px] leading-[25px] mb-5 mt-3'}>
@@ -199,7 +199,7 @@ export default function Home() {
                     <ClipBlock rotate={180} data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">
                         <header className={'text-[20px]'}>
                             <span>Для тестування <br /> спробуй </span>
-                            <span className={'text-[#00FFC9]'}>демо-версiю</span>
+                            <span className={'text-[#00FFC9]'}>демо-версIю</span>
                         </header>
 
                         <main className={'font-[Century_Gothic] mt-14 text-[23px] flex justify-center'}>
